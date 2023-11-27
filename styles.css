@@ -1,0 +1,123 @@
+html{
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+/* ************* BARRE DE NAVIGATION  ************* */
+
+nav {
+    size: 100%;
+    height: 130px;    
+    margin: 0em;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+nav a{
+    float: right;
+    color: black;
+    list-style: none;
+    font-size: 16px;
+    text-align: center;
+    padding: 3em;
+    text-decoration: none;
+    border: solid white 2px;
+}
+
+nav a:hover{
+    color: #0065FC;
+    border-top: solid #0065FC 2px;
+}
+
+.logo{
+    float: left;
+    margin: 2em;
+}
+
+/* ************* HAUT DE PAGE TITRE ************* */
+
+
+h1 {
+    font-size: 22px;
+}
+
+p{
+    font-size: 16px;
+}
+
+/* ************* BARRE DE RECHERCHE  ************* */
+
+
+.searchbar {
+    width: 420px;
+    height: 70px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.iconbar{
+    width: 50px;
+    height: 49px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D9D9D9;
+}
+
+.searchbutton{
+    width: 132px;
+    height: 49px;
+    background-color: #0065FC;
+    border: none;
+    padding: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: white;
+    font-size: 18px;
+}
+
+.inputbar{
+    width: 232px;
+    height: 45px;
+    padding: 0;
+    border: none;
+    border-top: solid #D9D9D9 2px;
+    border-bottom: solid #D9D9D9 2px;
+}
+
+
+
+/* ************* BARRE DE FILTRES  ************* */
+
+.filtres{
+    width: 920px;
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.filtrebutton {
+    height: 48px;
+    background-color: white;
+    border: solid #D9D9D9 1px;
+    border-radius: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonitems {
+    font-weight: bold;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+button:hover{
+    background-color: #D9D9D9;
+}
